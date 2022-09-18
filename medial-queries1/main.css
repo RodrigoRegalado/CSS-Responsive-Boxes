@@ -1,3 +1,26 @@
 body {
   background: blanchedalmond;
 }
+* {
+  border: 1px solid red;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin:0;
+  text-align:center;
+  min-height:150vh;
+}
+.a {
+  min-height: 20vh;
+  flex-grow:2;
+}
+.b {
+  min-height: 60vh;
+  flex-grow: 5;
+}
+.c {
+  min-height: 20vh;
+  flex-grow: 2;
+}
