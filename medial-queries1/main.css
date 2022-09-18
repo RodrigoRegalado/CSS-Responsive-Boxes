@@ -24,3 +24,22 @@ body {
   min-height: 20vh;
   flex-grow: 2;
 }
+.a, .b, .c {
+  margin: 10px;
+}
+
+@media (min-width:600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a{
+    width: 100%;
+  }
+  .b {
+    max-width: 80%;
+  }
+  .c {
+    min-width: 20%;
+  }
+}
